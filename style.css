@@ -5,6 +5,12 @@ body {
 
 .half-width {
   width: 50%;
+  height: 600px;
+  position: relative;
+}
+
+.center-div {
+  margin-bottom: -20%;
 }
 
 .half-width h1 {
@@ -14,7 +20,6 @@ body {
 
 .half-width img {
   width: 90%;
-  margin-left: 20%;
 }
 
 .half-width p {
@@ -32,6 +37,12 @@ body {
   display: flex;
   bottom: 100px;
   align-items: center;
+}
+
+.top-banner {
+  background-image: url(img/banner1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 span {
@@ -59,21 +70,27 @@ span {
 }
 
 .middle-banner {
-  background-image: url(img/banner1.png);
+  background-image: url(img/banner2.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -3%;
 }
 
 #model2 {
-  width: 50%;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
 }
 
 .recipies {
   font-size: 45px;
   font-weight: bold;
-  margin-top: 5%;
   text-align: center;
   color: #575757;
+}
+
+.recipie-item {
+  background-color: #fff;
 }
 
 .recipie-item p {
